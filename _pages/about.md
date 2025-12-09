@@ -34,7 +34,11 @@ My research has been published in top-tier AI and NLP venues, including ACL, EMN
 
 
 # 📝 Publications 
-### Citations: 310
+<<<<<<< HEAD
+### Citations:  310
+=======
+### Citations： 310
+>>>>>>> d38f42f (save work)
 
 ### [MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](https://neurips.cc/virtual/2025/loc/san-diego/poster/121768)
 > Design a benchmark to evaluate the long-context capabilities of large vision-language models across 46 VLMs and five task types, revealing key challenges in long-context reasoning.(*NeurIPS 2025*)
