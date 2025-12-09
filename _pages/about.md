@@ -73,7 +73,7 @@ My research has been published in top-tier AI and NLP venues, including ACL, EMN
 
 
 # 📖 Educations
-- *2021.04 -  now*, I feel very fortunate to be supervised by Prof. **Mark Steedman** and Prof. **Shay Cohen** during my PhD life in University of Edinburgh!
+- *2021.04 -  now*, I feel very fortunate to be supervised by Prof. **Mark Steedman** and **Shay Cohen** during my PhD life in University of Edinburgh!
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mark Steedman</div><img src='images/Mark.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -116,7 +116,7 @@ Reader at the University of Edinburgh (School of Informatics).
 
 
 # 📸 Photography
-I love photography! Here is my works.
+Photography is my way of seeing the world—here are some of my recent shots.
 
 <style>
 .photo-list {
