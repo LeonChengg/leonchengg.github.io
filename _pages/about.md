@@ -178,5 +178,7 @@ Photography is my way of seeing the world—here are some of my recent shots.
       <img src="images/Rock Star.jpg" alt="I am a Rock Star">
     </div>
   </div>
-
+ 
 </div>
+
+{% include effects.html %}

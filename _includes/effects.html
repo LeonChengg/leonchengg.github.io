@@ -1,0 +1,74 @@
+<!-- =======================
+     Effects: Particles + Mouse Trail + Matrix Rain
+     Leon's Personal Homepage
+========================== -->
+
+<!-- ⭐ 1. Mouse Click Effect -->
+ <script>
+  document.addEventListener('click', function (e) {
+    let heart = document.createElement("div");
+    heart.innerHTML = "❤";
+    heart.style.position = "absolute";
+    heart.style.left = e.pageX + "px";
+    heart.style.top = e.pageY + "px";
+    heart.style.fontSize = "20px";
+    heart.style.color = "red";
+    heart.style.opacity = 1;
+    document.body.appendChild(heart);
+
+    let fade = setInterval(() => {
+      if (heart.style.opacity > 0) {
+        heart.style.opacity -= 0.02;
+        heart.style.top = (parseFloat(heart.style.top) - 1) + "px";
+      } else {
+        clearInterval(fade);
+        heart.remove();
+      }
+    }, 16);
+  });
+  </script>
+
+
+<!-- ⭐ 2. Mouse Trail Effect -->
+<style>
+.trail-dot {
+  position: absolute;
+  width: 4px;   /* ⭐ 更小的尾迹 */
+  height: 4px;
+  border-radius: 50%;
+  background: #4dd0ff; /* ⭐ 更好看的高级霓虹蓝 */
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  animation: glowFadeSmall 0.5s ease-out forwards;
+}
+
+@keyframes glowFadeSmall {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow:
+      0 0 6px rgba(77, 208, 255, 0.9),
+      0 0 12px rgba(77, 208, 255, 0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3);
+    box-shadow:
+      0 0 2px rgba(77, 208, 255, 0.3),
+      0 0 6px rgba(77, 208, 255, 0);
+  }
+}
+
+</style>
+
+<script>
+document.addEventListener("mousemove", function(e) {
+  let dot = document.createElement("div");
+  dot.className = "trail-dot";
+  dot.style.left = e.pageX + "px";
+  dot.style.top = e.pageY + "px";
+  document.body.appendChild(dot);
+  setTimeout(() => { dot.remove(); }, 500);
+});
+</script>
+
