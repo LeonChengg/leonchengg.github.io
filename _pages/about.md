@@ -27,6 +27,7 @@ My research has been published in top-tier AI and NLP venues, including ACL, EMN
 
 
 # 🔥 Recent News in 2025
+- *2026.01*: &nbsp;🎉🎉 Our work "*RAGBoost: Efficient Retrieval-Augmented Generation with Accuracy-Preserving Context Reuse*" has been accepted in MLSys 2026.
 - *2025.09*: &nbsp;🎉🎉 Our work "*MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly*" has been accepted in NeurIPS 2025 Spotlight.
 - *2025.08*: &nbsp;🎉🎉 Our work "*S2LPP: Small-to-Large Prompt Prediction across LLMs*" has been accepted in EMNLP 2025.
 - *2025.05*: &nbsp;🎉🎉 Our work "*Neutralizing Bias in LLM Reasoning using Entailment Graphs*" has been accepted in ACL 2025.
