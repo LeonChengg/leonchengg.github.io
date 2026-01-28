@@ -35,7 +35,10 @@ My research has been published in top-tier AI and NLP venues, including ACL, EMN
 
 
 # 📝 Publications 
-### Citations (until 09/12/2025):  310
+### Citations (until 09/12/2025):  330
+
+### [RAGBoost: Efficient Retrieval-Augmented Generation with Accuracy-Preserving Context Reuse](https://arxiv.org/abs/2511.03475)
+> Present an efficient RAG system that maximizes cache reuse via accuracy-preserving context reuse, detecting overlaps across sessions and reusing contexts while maintaining reasoning accuracy. (*MLSys 2026*)
 
 ### [MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly](https://neurips.cc/virtual/2025/loc/san-diego/poster/121768)
 > Design a benchmark to evaluate the long-context capabilities of large vision-language models across 46 VLMs and five task types, revealing key challenges in long-context reasoning.(*NeurIPS 2025*)
@@ -62,9 +65,6 @@ My research has been published in top-tier AI and NLP venues, including ACL, EMN
 
 ### [Complementary Roles of Inference and Language Models in QA](https://aclanthology.org/2023.pandl-1.8/)
 > Developed RAG agents for open-domain QA by extracting knowledge graphs and integrating large language models, enhancing explainability and precision. We further proposed unsupervised textual entailment extraction methods to mitigate the sparsity of knowledge graphs. (*PANDL@EMNLP 2023*)
-
-### [RAGBoost: Efficient Retrieval-Augmented Generation with Accuracy-Preserving Context Reuse](https://arxiv.org/abs/2511.03475)
-> Present an efficient RAG system that maximizes cache reuse via accuracy-preserving context reuse, detecting overlaps across sessions and reusing contexts while maintaining reasoning accuracy. (*MLSys 2026*)
 
 ### [LLMs are Frequency Pattern Learners in Natural Language Inference](https://arxiv.org/abs/2505.21011)
 > Identify a correlation between frequency patterns and semantic generalization gradient, providing explanations for the source of LLMs' inferential capability. Building on these insights, we propose an efficient training strategy that uses small data subsets. (*Submitted Anonymous*)
